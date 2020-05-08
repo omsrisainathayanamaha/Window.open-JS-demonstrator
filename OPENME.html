@@ -8,8 +8,10 @@
             alert("Now opening new tab that is loading "+toOpen+", press OK to continue...");
             if(secure == true){
             window.open("https://"+toOpen);
+                window.close();
             }else{
                 window.open("http://"+toOpen);
+                window.close();
             }
         </script>
         </head>
